@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">projetAndroidCours</string>
+    <string name="txt_btn_home_group_info">Groupe infos</string>
+    <string name="txt_btn_home_categories">Catégories</string>
 </resources>
