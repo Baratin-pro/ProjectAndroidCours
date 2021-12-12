@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentActivity"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image_Student_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/avatar"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/text_Student_infoStudent"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Info étudiant :"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text_Student_name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Jean Michel le stagiaire"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text_Student_email"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="example@google.com"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text_Student_group"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Groupe : Enzo - Andrew"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="https://www.epsi.fr/"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -25,7 +25,7 @@
         android:text="Edutiant 1" />
 
     <Button
-        android:id="@+id/button_hGroupInfo_studentTwo"
+        android:id="@+id/button_GroupInfo_studentTwo"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
