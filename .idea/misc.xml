@@ -5,10 +5,14 @@
       <map>
         <entry key="..\:/Users/Andre/AndroidStudioProjects/ProjectAndroidCours/app/src/main/res/layout/activity_category.xml" value="0.1962962962962963" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/ProjectAndroidCours/app/src/main/res/layout/activity_main.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/Andre/AndroidStudioProjects/ProjectAndroidCours/app/src/main/res/layout/activity_product_details.xml" value="0.1" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/ProjectAndroidCours/app/src/main/res/layout/activity_products_list.xml" value="0.1" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/ProjectAndroidCours/app/src/main/res/layout/activity_rayon.xml" value="0.1" />
+        <entry key="..\:/Users/Andre/AndroidStudioProjects/ProjectAndroidCours/app/src/main/res/layout/activity_student.xml" value="0.11851851851851852" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/ProjectAndroidCours/app/src/main/res/layout/cell_category.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/Andre/AndroidStudioProjects/ProjectAndroidCours/app/src/main/res/layout/cell_product_detail.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/ProjectAndroidCours/app/src/main/res/layout/cell_products_list.xml" value="0.1" />
+        <entry key="..\:/Users/Andre/AndroidStudioProjects/ProjectAndroidCours/app/src/main/res/layout/layout_header.xml" value="0.1" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/projetAndroidCours/app/src/main/res/layout/activity_group_info.xml" value="0.21979166666666666" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/projetAndroidCours/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Andre/AndroidStudioProjects/projetAndroidCours/app/src/main/res/layout/activity_splash.xml" value="0.1" />

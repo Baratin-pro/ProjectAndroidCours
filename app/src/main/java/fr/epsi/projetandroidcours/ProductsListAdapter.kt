@@ -1,6 +1,7 @@
 package fr.epsi.projetandroidcours
 
 import android.content.ContentValues.TAG
+import android.content.Intent
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -17,6 +18,7 @@ class ProductsListAdapter(private val products: ArrayList<ProductsList>): Recycl
         val textViewName: TextView = view.findViewById (R.id.textViewName)
         val textViewDescription: TextView = view.findViewById(R.id.textViewDescription)
         val imageViewProduct: ImageView = view.findViewById(R.id.imageViewProducts)
+        val contentLayout: LinearLayout = view.findViewById(R.id.contentLayout)
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ViewHolder {
@@ -28,15 +30,26 @@ class ProductsListAdapter(private val products: ArrayList<ProductsList>): Recycl
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val product = products[position]
         val lenghtLimit = 40
-        holder.textViewName.text = product.name
 
+        holder.textViewName.text = product.name
         if(product.description.length >= lenghtLimit) {
             holder.textViewDescription.text = "${product.description.substring(0, lenghtLimit)} ..."
         }else {
             holder.textViewDescription.text = product.description
         }
         Picasso.get().load(product.picture_url).into(holder.imageViewProduct)
+
+        holder.contentLayout.setOnClickListener {
+            v->
+            val intent = Intent(v.context, ProductDetailsActivity::class.java)
+            intent.putExtra("nameProduct", product.name)
+            intent.putExtra("descriptionProduct", product.description)
+            intent.putExtra("imageProduct",product.picture_url)
+            v.context.startActivity(intent)
+
+        }
     }
+
 
     override fun getItemCount(): Int {
         return products.size
