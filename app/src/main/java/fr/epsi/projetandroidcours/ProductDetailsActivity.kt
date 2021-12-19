@@ -10,7 +10,7 @@ class ProductDetailsActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_product_details)
         val title = intent.getStringExtra("nameProduct")
-        setHeaderTitle(title.toString())
+        setHeaderTitle(title.toString().uppercase())
         showBack()
 
         val descriptionProduct : TextView = findViewById(R.id.text_ProductDetails_description)

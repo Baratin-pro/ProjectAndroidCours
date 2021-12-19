@@ -1,37 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ProductDetailsActivity"
-    android:orientation="vertical">
+    style="@style/Body">
 
     <include
         layout="@layout/layout_header"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <LinearLayout
-        android:id="@+id/contentLayout"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="200dp">
-        <ImageView
-            android:id="@+id/image_ProductDetails_picture"
-            android:layout_gravity="center_vertical"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:adjustViewBounds="true"/>
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_gravity="center_vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        style="@style/Header.include"/>
+
+    <ScrollView style="@style/Scroll">
+        <LinearLayout style="@style/Body">
+
+            <ImageView
+                android:id="@+id/image_ProductDetails_picture"
+                style="@style/ProductDetailsImage"/>
+
             <TextView
                 android:id="@+id/text_ProductDetails_description"
-                android:textSize="16sp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                style="@style/ProductDetailsText"
+                 />
+
         </LinearLayout>
-    </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

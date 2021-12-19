@@ -38,4 +38,34 @@
         <item name="android:layout_height">20dp</item>
         <item name="android:layout_marginLeft">20dp</item>
     </style>
+    <!-- include Header -->
+    <style name="Header.include" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- Body -->
+    <style name="Body" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!-- Scroll -->
+    <style name="Scroll" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- layout Product Details -->
+    <style name="ProductDetailsImage" parent="TextAppearance.AppCompat">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="ProductDetailsText" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
 </resources>
