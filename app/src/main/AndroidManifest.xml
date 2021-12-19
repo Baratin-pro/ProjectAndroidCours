@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetAndroidCours">
         <activity
-            android:name=".RayonActivity"
+            android:name=".ProductsListActivity"
             android:exported="false" />
         <activity
             android:name=".CategoryActivity"

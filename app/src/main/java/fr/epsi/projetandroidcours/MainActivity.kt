@@ -10,6 +10,7 @@ class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        setHeaderTitle("EPSI")
 
         val buttonGroupInfo = findViewById<Button>(R.id.button_home_group_info)
         buttonGroupInfo.setOnClickListener(View.OnClickListener {
@@ -23,6 +24,6 @@ class MainActivity : BaseActivity() {
             startActivity(newIntent)
         })
 
-        setHeaderTitle("EPSI")
+
     }
 }
