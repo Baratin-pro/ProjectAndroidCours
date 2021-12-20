@@ -2,37 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    style="@style/Body">
 
     <include
         layout="@layout/layout_header"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        style="@style/Header.include"/>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+    <LinearLayout
+        style="@style/Body.linearLayout">
 
-            <Button
-                android:id="@+id/button_home_group_info"
-                android:layout_width="200dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center_horizontal"
-                android:text="@string/txt_btn_home_group_info" />
+        <Button
+            android:id="@+id/button_home_group_info"
+            android:text="@string/txt_btn_home_group_info"
+            style="@style/main_button"/>
 
-            <Button
-                android:id="@+id/button_home_categories"
-                android:layout_width="200dp"
-                android:layout_height="50dp"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp"
-                android:text="@string/txt_btn_home_categories" />
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/button_home_categories"
+            android:text="@string/txt_btn_home_categories"
+            style="@style/main_button"/>
+    </LinearLayout>
+
 </LinearLayout>
