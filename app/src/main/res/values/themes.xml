@@ -54,7 +54,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
     </style>
-    <!-- layout Product Details -->
+    <!-- activity Product Details -->
     <style name="ProductDetailsImage" parent="TextAppearance.AppCompat">
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:layout_width">match_parent</item>
@@ -66,6 +66,36 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">20dp</item>
         <item name="android:textSize">14sp</item>
-
+    </style>
+    <!-- Cell Products List -->
+    <style name="ProductsList" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+    <style name="ProductsList.image" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="ProductsList.contentText" parent="TextAppearance.AppCompat">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ProductsList.name" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+    <style name="ProductsList.description" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
 </resources>
