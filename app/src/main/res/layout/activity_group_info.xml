@@ -2,39 +2,25 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".GroupInfoActivity">
+    tools:context=".GroupInfoActivity"
+    style="@style/Body">
 
     <include
         layout="@layout/layout_header"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        style="@style/Header.include"/>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
+    <LinearLayout style="@style/Body.linearLayout">
 
     <Button
         android:id="@+id/button_GroupInfo_studentOne"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:text="Edutiant 1" />
+        android:text="Edutiant 1"
+        style="@style/main_button"/>
 
     <Button
         android:id="@+id/button_GroupInfo_studentTwo"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"
-        android:text="Etudiant 2" />
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:text="Etudiant 2"
+        style="@style/main_button"/>
+    </LinearLayout>
 
 </LinearLayout>
 
