@@ -122,4 +122,14 @@
         <item name="android:layout_marginBottom">20dp</item>
         <item name="android:textColor">@color/white</item>
     </style>
+    <!-- Activity splash -->
+    <style name="Splash" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="Splash.image" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
 </resources>
