@@ -17,7 +17,7 @@ class GroupInfoActivity : BaseActivity() {
 
         buttonStudentOne.setOnClickListener(View.OnClickListener {
             val newIntent = Intent(application, StudentActivity::class.java)
-            newIntent.putExtra("nameStudent","Enzo")
+            newIntent.putExtra("nameStudent","Cologni Enzo")
             newIntent.putExtra("emailStudent","enzo@gmail.com")
             startActivity(newIntent)
         })
@@ -26,7 +26,7 @@ class GroupInfoActivity : BaseActivity() {
 
         buttonStudentTwo.setOnClickListener(View.OnClickListener {
             val newIntent = Intent(application, StudentActivity::class.java)
-            newIntent.putExtra("nameStudent","Andrew")
+            newIntent.putExtra("nameStudent","Baratin Andrew")
             newIntent.putExtra("emailStudent","andrew@gmail.com")
             startActivity(newIntent)
         })
