@@ -13,7 +13,7 @@
 
     <Button
         android:id="@+id/button_GroupInfo_studentOne"
-        android:text="Edutiant 1"
+        android:text="Etudiant 1"
         style="@style/main_button"/>
 
     <Button

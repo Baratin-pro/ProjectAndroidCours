@@ -7,9 +7,10 @@
     <include
         layout="@layout/layout_header"
         style="@style/Header.include"/>
-
+    <LinearLayout style="@style/Category">
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewCategories"
         style="@style/Body.content"/>
+    </LinearLayout>
     
 </LinearLayout>
